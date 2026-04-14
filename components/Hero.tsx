@@ -19,7 +19,7 @@ function TealUnderline() {
     </svg>
   )
 }
-
+const missionMessage = 'We build custom websites for cleaning businesses and trades in Southwest Sydney — designed around your brand, your style, and your customers. No tech headaches. Just results.'
 export function Hero() {
   return (
     <section id="hero" className="min-h-screen bg-slate-50 relative overflow-hidden">
@@ -39,7 +39,7 @@ export function Hero() {
             <div className="flex flex-col items-center lg:items-start text-center lg:text-left">
               {/* Small label pill */}
               <span className="inline-flex items-center text-xs font-medium text-teal-700 bg-teal-50 border border-teal-100 rounded-full px-3 py-1 mb-6">
-                Southwest Sydney&apos;s boutique web studio
+                Custom websites for local businesses
               </span>
 
               {/* Headline */}
@@ -53,7 +53,7 @@ export function Hero() {
 
               {/* Subheadline */}
               <p className="text-lg text-slate-500 leading-[1.7] max-w-xl mb-8">
-                We build fast, professional websites for cleaning businesses and trades in Southwest Sydney. No tech headaches. Just results.
+                {missionMessage}
               </p>
 
               {/* Buttons */}
@@ -76,17 +76,17 @@ export function Hero() {
               <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 text-sm text-slate-500">
                 <div className="flex items-center gap-2">
                   <Check className="w-4 h-4 text-teal-600" />
-                  <span>Mobile-first design</span>
+                  <span>Be found online</span>
                 </div>
                 <span className="hidden sm:inline text-slate-300">•</span>
                 <div className="flex items-center gap-2">
                   <Check className="w-4 h-4 text-teal-600" />
-                  <span>Live in 7 days</span>
+                  <span>Grow your business</span>
                 </div>
                 <span className="hidden sm:inline text-slate-300">•</span>
                 <div className="flex items-center gap-2">
                   <Check className="w-4 h-4 text-teal-600" />
-                  <span>Local to Southwest Sydney</span>
+                  <span>Turn visitors into clients</span>
                 </div>
               </div>
             </div>

@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import { Phone, Menu, X } from "lucide-react"
+import Image from "next/image"
 
 const navLinks = [
   { label: "Our Work", href: "#our-work" },
@@ -19,15 +20,21 @@ export function Navbar() {
 
   return (
     <nav className="sticky top-0 z-50 bg-white border-b border-slate-100">
-     <div className="h-16 px-6 md:px-12 flex items-center justify-between md:justify-start">
+     <div className= "h-16 px-6 md:px-12 flex items-center justify-between relative">
         
         {/* Logo - fixed width for balance */}
-        <a href="#" className="flex items-center gap-2 group md:w-48">
-          <span className="w-2 h-2 bg-teal-600 inline-block transition-colors group-hover:bg-teal-700" />
-          <span className="font-semibold text-slate-700 tracking-tight text-lg">
-            Ajax Web Studio
-          </span>
-        </a>
+        <a href="#" className= "flex items-center gap-2 group z-10">
+            <Image
+            src="/images/logo2.png"
+            alt="Ajax Web Studio logo"
+            width={32}
+            height={32}
+            className="object-contain"
+          />
+              <span className="font-semibold text-slate-700 tracking-tight text-lg">
+                     Ajax Web Studio
+              </span>
+          </a>
 
         {/* Desktop Navigation - centered */}
         <div className="hidden md:flex flex-1 items-center justify-center">
@@ -53,7 +60,7 @@ export function Navbar() {
         >
           <Phone className="w-4 h-4 text-teal-600 transition-colors group-hover:text-teal-700" />
           <span className="text-sm font-medium text-slate-600 group-hover:text-slate-800 transition-colors">
-            (02) 9999 9999
+            (04) 242 37010
           </span>
         </a>
 
@@ -92,7 +99,7 @@ export function Navbar() {
           >
             <Phone className="w-4 h-4 text-teal-600" />
             <span className="text-sm font-medium text-slate-600">
-              (02) 9999 9999
+              (04) 24 237 010
             </span>
           </a>
         </div>

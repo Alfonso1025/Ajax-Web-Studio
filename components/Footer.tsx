@@ -1,4 +1,5 @@
 import { Mail, MapPin } from "lucide-react"
+import Image from "next/image"
 
 export function Footer() {
   return (
@@ -9,7 +10,13 @@ export function Footer() {
           {/* Left column — Brand */}
           <div className="flex flex-col items-center md:items-start">
             <div className="flex items-center gap-2">
-              <span className="w-2 h-2 bg-teal-600 inline-block" />
+              <Image
+              src="/images/logo2.png"
+              alt="Ajax Web Studio logo"
+              width={42}
+              height={42}
+              className="object-contain rounded-full"
+              />
               <span className="font-semibold text-slate-800 tracking-tight text-base">
                 Ajax Web Studio
               </span>
