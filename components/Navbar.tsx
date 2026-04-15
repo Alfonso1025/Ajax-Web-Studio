@@ -56,7 +56,7 @@ export function Navbar() {
         {/* Phone Number - fixed width for balance */}
         <a 
           href="tel:+61299999999" 
-          className="hidden md:flex items-center gap-2 px-4 py-2 rounded-full border border-slate-200 hover:border-teal-400 hover:bg-teal-50/50 transition-all duration-200 md:w-48 justify-end"
+          className="hidden md:flex items-center gap-2 px-4 py-2 rounded-full border border-slate-200 hover:border-teal-400 hover:bg-teal-50/50 transition-all duration-200 md:w-48 justify-center"
         >
           <Phone className="w-4 h-4 text-teal-600 transition-colors group-hover:text-teal-700" />
           <span className="text-sm font-medium text-slate-600 group-hover:text-slate-800 transition-colors">
