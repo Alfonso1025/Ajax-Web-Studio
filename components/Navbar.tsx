@@ -60,7 +60,7 @@ export function Navbar() {
         >
           <Phone className="w-4 h-4 text-teal-600 transition-colors group-hover:text-teal-700" />
           <span className="text-sm font-medium text-slate-600 group-hover:text-slate-800 transition-colors">
-            (04) 242 37010
+            042 423 7010
           </span>
         </a>
 

@@ -16,11 +16,13 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Ajax Web Studio",
-  description: "Professional custom websites for cleaning business and trades in western Sydney",
-  keywords: "web studio campbelltown, websites southwest sydney, cleaning business websites"
+  title: "Ajax Web Studio | Custom Websites for Cleaning Businesses in Southwest Sydney",
+  description: "Ajax Web Studio builds fully custom websites and web applications for cleaning businesses, trades and local professionals across Southwest Sydney. Based in Campbelltown.",
+  keywords: "web design Campbelltown, websites southwest sydney, cleaning business websites, web designer Campbelltown, Google Business Profile setup",
+  verification: {
+    google: "G_cDj3wnoRmw-55ijVjunwj2F7YSlituVC7eLoJlc9U",
+  },
 };
-
 export default function RootLayout({
   children,
 }: Readonly<{
