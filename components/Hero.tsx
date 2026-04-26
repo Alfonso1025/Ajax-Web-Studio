@@ -19,7 +19,7 @@ function TealUnderline() {
     </svg>
   )
 }
-const missionMessage = 'We build custom websites for cleaning businesses and trades in Southwest Sydney — designed around your brand, your style, and your customers. No tech headaches. Just results.'
+const missionMessage = 'Ajax Web Studio builds fully custom websites and web applications for cleaning businesses, trades and local professionals across Southwest Sydney — designed around your brand, your services and the customers you want to reach. Based in Campbelltown.'
 export function Hero() {
   return (
     <section id="hero" className="min-h-screen bg-slate-50 relative overflow-hidden">
@@ -39,7 +39,7 @@ export function Hero() {
             <div className="flex flex-col items-center lg:items-start text-center lg:text-left">
               {/* Small label pill */}
               <span className="inline-flex items-center text-xs font-medium text-teal-700 bg-teal-50 border border-teal-100 rounded-full px-3 py-1 mb-6">
-                Custom websites for local businesses
+                Web design for cleaning businesses & trades — Southwest Sydney
               </span>
 
               {/* Headline */}
@@ -48,6 +48,7 @@ export function Hero() {
                 <span className="relative inline-block">
                   <span className="text-teal-600">found</span>
                   <TealUnderline />
+                  {" "}in Southwest Sydney
                 </span>
               </h1>
 
@@ -76,17 +77,17 @@ export function Hero() {
               <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 text-sm text-slate-500">
                 <div className="flex items-center gap-2">
                   <Check className="w-4 h-4 text-teal-600" />
-                  <span>Be found online</span>
+                  <span>Get found in Google maps</span>
                 </div>
                 <span className="hidden sm:inline text-slate-300">•</span>
                 <div className="flex items-center gap-2">
                   <Check className="w-4 h-4 text-teal-600" />
-                  <span>Grow your business</span>
+                  <span>Grow your customer base</span>
                 </div>
                 <span className="hidden sm:inline text-slate-300">•</span>
                 <div className="flex items-center gap-2">
                   <Check className="w-4 h-4 text-teal-600" />
-                  <span>Turn visitors into clients</span>
+                  <span>Turn visitors into bookings</span>
                 </div>
               </div>
             </div>

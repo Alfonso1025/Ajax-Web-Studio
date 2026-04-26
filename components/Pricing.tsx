@@ -11,10 +11,10 @@ export function Pricing() {
             Pricing
           </span>
           <h2 className="text-3xl md:text-4xl font-semibold text-slate-900 tracking-tight mb-3">
-            Simple, honest pricing
+          Website pricing for small businesses in Southwest Sydney
           </h2>
           <p className="text-slate-500 text-base max-w-md">
-            Everything your business needs to get found online
+          Everything your cleaning business or trade needs to get found on Google — at a price that makes sense.
           </p>
         </div>
 
@@ -253,7 +253,7 @@ export function Pricing() {
         {/* Bottom note */}
       <div className="text-center">
           <p className="text-slate text-slate-500 max-w-lg mx-auto leading-relaxed">
-          Every package includes a design consultation where we learn your brand, your colours, and the customers you are trying to reach. You do not choose from templates — we build yours from scratch.
+          Every package includes a design consultation where we learn your brand, your colours, and the suburbs you serve. We build from scratch — no templates, no Wix, no WordPress. Just a custom website built for your business.
             
           </p>
         </div>

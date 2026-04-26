@@ -1,8 +1,8 @@
 export function SocialProofBar() {
     const stats = [
       {
-        label: "websites launched",
-        value: "2",
+        label: "Partners",
+        value: "+35 in the Macarthur area",
         hasNumber: true,
       },
       {
@@ -12,7 +12,7 @@ export function SocialProofBar() {
       },
       {
         label: "Serving",
-        value: "Western Sydney",
+        value: "Southwest Sydney",
         hasNumber: false,
       },
     ]

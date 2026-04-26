@@ -28,7 +28,7 @@ export function OurWork() {
             Portfolio
           </span>
           <h2 className="text-3xl md:text-4xl font-semibold text-slate-900 tracking-tight mb-3">
-            What we build
+            Custom websites build for local businesses
           </h2>
           <p className="text-slate-500 text-base max-w-md">
               Every website we build is custom — designed from scratch around your business, your brand colours, and the customers you want to attract. The examples below show the quality and features we deliver. Your site will look nothing like these unless you want it to.
