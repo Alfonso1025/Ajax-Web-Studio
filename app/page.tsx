@@ -1,6 +1,7 @@
 import { Hero } from "@/components/Hero";
 import { SocialProofBar } from "@/components/SocialProof";
 import { OurWork } from "@/components/OurWork";
+import { Services } from "@/components/Services";
 import { Pricing } from "@/components/Pricing";
 import { Contact } from "@/components/Contact";
 export default function Home() {
@@ -10,7 +11,8 @@ export default function Home() {
       
     <Hero/>
      <SocialProofBar/>
-     <OurWork/>
+     <Services/>
+     <OurWork/> 
      <Pricing/>
      <Contact/>
 

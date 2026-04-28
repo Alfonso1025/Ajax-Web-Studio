@@ -81,12 +81,12 @@ const suburbs = [
 ]
 
 const suburbLinks = [
-  { label: "Web design for NDIS providers in Campbelltown", href: "/ndis-providers/Campbelltown" },
-  { label: "Web design for NDIS providers in Camden", href: "/ndis-providers/Camden" },
-  { label: "Web design for NDIS providers in Narellan", href: "/ndis-providers/Narellan" },
-  { label: "Web design for NDIS providers in Ingleburn", href: "/ndis-providers/Ingleburn" },
-  { label: "Web design for NDIS providers in Minto", href: "/ndis-providers/Minto" },
-  { label: "Web design for NDIS providers in Gregory Hills", href: "/ndis-providers/Gregory-hills" },
+  { label: "Web design for NDIS providers in Campbelltown", href: "/ndis-providers/campbelltown" },
+  { label: "Web design for NDIS providers in Camden", href: "/ndis-providers/camden" },
+  { label: "Web design for NDIS providers in Narellan", href: "/ndis-providers/narellan" },
+  { label: "Web design for NDIS providers in Ingleburn", href: "/ndis-providers/ingleburn" },
+  { label: "Web design for NDIS providers in Minto", href: "/ndis-providers/minto" },
+  { label: "Web design for NDIS providers in Gregory Hills", href: "/ndis-providers/gregory-hills" },
 ]
 
 export default function NDISProvidersPage() {

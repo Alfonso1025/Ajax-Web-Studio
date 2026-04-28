@@ -2,7 +2,7 @@ import { Check } from "lucide-react"
 
 export function Pricing() {
   return (
-    <section id="services" className="bg-slate-50 py-20 md:py-28">
+    <section id="pricing" className="bg-slate-50 py-20 md:py-28">
       <div className="max-w-5xl mx-auto px-6 md:px-12">
 
         {/* Section header */}

@@ -1,9 +1,9 @@
 export function SocialProofBar() {
     const stats = [
       {
-        label: "Partners",
-        value: "+35 in the Macarthur area",
-        hasNumber: true,
+        label: "Local partners",
+        value: "+35",
+        hasNumber: false,
       },
       {
         label: "Based in",
