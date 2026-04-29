@@ -39,7 +39,7 @@ export function Hero() {
             <div className="flex flex-col items-center lg:items-start text-center lg:text-left">
               {/* Small label pill */}
               <span className="inline-flex items-center text-xs font-medium text-teal-700 bg-teal-50 border border-teal-100 rounded-full px-3 py-1 mb-6">
-                Web design for cleaning businesses & trades — Southwest Sydney
+                Web design for local businesses & trades — Southwest Sydney
               </span>
 
               {/* Headline */}
