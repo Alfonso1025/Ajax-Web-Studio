@@ -195,8 +195,14 @@ export function Contact() {
                     <option value="" disabled>
                       Select your business type
                     </option>
+                    <option value="ndis-provider">NDIS provider</option>
+                    <option value="plumbing">Plumbing business</option>
+                    <option value="electricity">Electricity business</option>
                     <option value="cleaning">Cleaning business</option>
+                    <option value="landcaping">Landscaping business</option>
                     <option value="trade">Trade</option>
+                    <option value="law">Lawyer</option>
+                    <option value="accounting">Accounting business</option>
                     <option value="professional">Professional services</option>
                     <option value="other">Other</option>
                   </select>

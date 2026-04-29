@@ -19,7 +19,7 @@ function TealUnderline() {
     </svg>
   )
 }
-const missionMessage = 'Ajax Web Studio builds fully custom websites and web applications for cleaning businesses, trades and local professionals across Southwest Sydney — designed around your brand, your services and the customers you want to reach. Based in Campbelltown.'
+const missionMessage = 'Ajax Web Studio builds fully custom websites and web applications for businesses across Southwest Sydney — designed around your brand, your services and the customers you want to reach. Based in Campbelltown.'
 export function Hero() {
   return (
     <section id="hero" className="min-h-screen bg-slate-50 relative overflow-hidden">

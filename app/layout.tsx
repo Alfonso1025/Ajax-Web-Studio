@@ -16,8 +16,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Ajax Web Studio | Custom Websites for Cleaning Businesses in Southwest Sydney",
-  description: "Ajax Web Studio builds fully custom websites and web applications for cleaning businesses, trades and local professionals across Southwest Sydney. Based in Campbelltown.",
+  title: "Custom Websites for local businesses in Southwest Sydney",
+  description: "Ajax Web Studio builds custom websites for local businesses across Southwest Sydney — NDIS providers, plumbers, electricians, lawyers and trades. Based in Campbelltown. No templates. Live in 7 days.",
   keywords: "web design Campbelltown, websites southwest sydney, cleaning business websites, web designer Campbelltown, Google Business Profile setup",
   verification: {
     google: "G_cDj3wnoRmw-55ijVjunwj2F7YSlituVC7eLoJlc9U",
@@ -73,12 +73,16 @@ export default function RootLayout({
                     "Macquarie Fields"
                   ],
                   "serviceType": [
-                    "Web Design",
-                    "Web Development",
-                    "Custom Website Development",
-                    "Google Business Profile Setup",
-                    "Local SEO",
-                    "Web Application Development"
+                        "Web Design",
+                        "Web Development", 
+                        "Custom Website Development",
+                        "NDIS Provider Website Design",
+                        "Plumber Website Design",
+                        "Electrician Website Design",
+                        "Legal Website Design",
+                        "Google Business Profile Setup",
+                        "Local SEO",
+                        "Web Application Development"
                   ],
                   "priceRange": "$$",
                   "openingHoursSpecification": [

@@ -15,7 +15,7 @@ export type Service = {
     {
       id: "ndis",
       icon : HeartHandshake,
-      label: "Complaint NDIS websites",
+      label: "Compliant NDIS websites",
       heading: "NDIS providers",
       description:
         "Custom websites for registered and not-registered NDIS providers, support workers and support coordinators across Southwest Sydney.",

@@ -5,10 +5,10 @@ import { Phone, Menu, X } from "lucide-react"
 import Image from "next/image"
 
 const navLinks = [
-  { label: "Services", href: "#services" },
-  { label: "Our Work", href: "#our-work" },
+  { label: "Services", href: "/#services" },
+  { label: "Our Work", href: "/#our-work" },
   { label: "About", href: "/about" },
-  { label: "Contact", href: "#contact" },
+  { label: "Contact", href: "/#contact" },
 ]
 
 export function Navbar() {
@@ -93,7 +93,7 @@ export function Navbar() {
           ))}
           {/* Phone Number in Mobile Menu */}
           <a 
-            href="tel:+61299999999"
+            href="tel:+61424237010"
             onClick={handleLinkClick}
             className="flex items-center justify-center gap-2 mx-6 my-4 py-3 rounded-full border border-slate-200 active:bg-teal-50/50 transition-colors"
           >

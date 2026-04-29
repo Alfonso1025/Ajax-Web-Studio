@@ -33,7 +33,7 @@ export type Project = {
       name: "Sparkle Clean Light-V",
       businessType: "Cleaning business",
       description: "A professional services site with quote request form and service area map",
-      liveUrl: "https:///sparkle-clean-v2-full.vercel.app",
+      liveUrl: "https://sparkle-clean-v2-full.vercel.app",
       tags: ["Quote form", "Service areas", "Mobile optimised"],
       images: {
         hero: "/images/projects/sparkle-clean-light/hero.png",

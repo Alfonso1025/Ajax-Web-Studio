@@ -14,7 +14,7 @@ export function Pricing() {
           Website pricing for small businesses in Southwest Sydney
           </h2>
           <p className="text-slate-500 text-base max-w-md">
-          Everything your cleaning business or trade needs to get found on Google — at a price that makes sense.
+          Everything your local business needs to get found on Google — at a price that makes sense.
           </p>
         </div>
 

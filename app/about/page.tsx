@@ -1,8 +1,13 @@
 import Image from "next/image"
 import Link from "next/link"
 
+
 export default function About() {
   const industries = [
+    {
+      title: "NDIS providers",
+      body: "We are specialist in building websites for registered and unregistered NDIS providers that want to establish trust and credibility"
+    },
     {
       title: "Cleaning businesses",
       body: "From sole traders to growing cleaning companies across Southwest Sydney. We understand your customers, your pricing model and what makes someone book a clean online.",
@@ -66,11 +71,11 @@ export default function About() {
       <section className="bg-slate-50 px-6 py-12 md:px-12 md:py-20 lg:py-24">
         <div className="mx-auto max-w-4xl text-center">
           <span className="inline-block text-xs font-medium text-teal-700 bg-teal-50 border border-teal-100 rounded-full px-3 py-1">Web Design Studio — Campbelltown NSW</span>
-          <h1 className="mt-6 text-4xl font-bold tracking-tight text-slate-900 md:text-5xl lg:text-6xl">Built in Campbelltown. Built for Southwest Sydney businesses.</h1>
+          <h1 className="mt-6 text-4xl font-bold tracking-tight text-slate-900 md:text-5xl lg:text-6xl">Websites built in Campbelltown. Built for Southwest Sydney businesses.</h1>
           <p className="mx-auto mt-6 max-w-2xl text-base text-slate-500 leading-relaxed md:text-lg">
             Ajax Web Studio is a web design and development studio based in
             Campbelltown, NSW. We build fully custom websites and web applications
-            for cleaning businesses, trades and local professionals across the
+            for businesses, trades, cleaning companies and local professionals across the
             Southwest Sydney region — from Camden and Narellan to Ingleburn, Minto
             and Gregory Hills.
           </p>
@@ -91,7 +96,7 @@ export default function About() {
           </p>
           <p className="mt-4 text-base text-slate-600 leading-relaxed">
             We founded Ajax Web Studio with one clear focus: local businesses in
-            Southwest Sydney were being underserved. Cleaning companies, tradies,
+            Southwest Sydney were being underserved. NDIS providers, cleaning companies, tradies,
             accountants and lawyers across Campbelltown, Camden and Narellan were
             either paying too much for generic results or settling for DIY
             solutions that did nothing for their growth. We built this studio to
@@ -196,7 +201,7 @@ export default function About() {
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-2xl font-semibold text-slate-900 md:text-3xl lg:text-4xl">Ready to get started?</h2>
           <p className="mx-auto mt-4 max-w-lg text-base text-slate-500 leading-relaxed">
-            Whether you are a cleaning business looking to get found on Google, a
+            Whether you are an NDIS provider looking to get found on Google, a
             tradie wanting a professional online presence, or an entrepreneur with
             an app idea — Ajax Web Studio is ready to build it.
           </p>

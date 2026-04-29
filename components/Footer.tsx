@@ -46,7 +46,7 @@ export function Footer() {
                 Services
               </a>
               <a
-                href="#about"
+                href="/about"
                 className="text-sm text-slate-500 hover:text-teal-600 transition-colors mb-2 block"
               >
                 About
