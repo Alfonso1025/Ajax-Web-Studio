@@ -17,7 +17,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Custom Websites for local businesses in Southwest Sydney",
-  description: "Ajax Web Studio builds custom websites for local businesses across Southwest Sydney — NDIS providers, plumbers, electricians, lawyers and trades. Based in Campbelltown. No templates. Live in 7 days.",
+  description: "Ajax Web Studio builds custom websites and web applications for local businesses across Southwest Sydney. We specialise in NDIS providers, trades — including plumbers, electricians and landscapers — and local professionals such as lawyers and accountants. Based in Campbelltown, we design, develop and deploy fully custom websites from scratch. We also set up and optimise Google Business Profiles and handle local SEO. Serving Campbelltown, Camden, Narellan, Ingleburn, Minto, Gregory Hills and surrounds.",
   keywords: "web design Campbelltown, websites southwest sydney, cleaning business websites, web designer Campbelltown, Google Business Profile setup",
   verification: {
     google: "G_cDj3wnoRmw-55ijVjunwj2F7YSlituVC7eLoJlc9U",
