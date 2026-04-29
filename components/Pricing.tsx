@@ -112,7 +112,7 @@ export function Pricing() {
             </p>
 
             <p className="text-xs text-slate-400 mb-3">
-              Best for: Cleaning companies, pet services, beauty businesses
+              Best for: NDIS providers,cleaners, plumbers, electricians
             </p>
 
             <div className="flex flex-col gap-2 mb-6 flex-1">
